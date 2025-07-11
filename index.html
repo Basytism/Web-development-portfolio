@@ -7,6 +7,7 @@
   <title>SynergySpheres 3.0 | Web Development Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.5/dist/cdn.min.js" defer></script>
   <style>
     body {
       font-family: 'Space Grotesk', sans-serif;
@@ -48,24 +49,37 @@
     </ul>
   </section>
 
-  <!-- Portfolio Grid -->
+  <!-- Portfolio Carousel -->
   <section class="bg-gray-100 py-16 px-6" id="portfolio">
     <h2 class="text-3xl font-semibold mb-10 text-center text-blue-800">Selected Projects</h2>
-    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
-        <h3 class="text-xl font-bold mb-2">Real Estate Landing Demo</h3>
-        <p class="text-sm mb-4">Responsive UI with WhatsApp integration and property grid design</p>
+    <div class="flex overflow-x-auto space-x-6 px-4 md:px-0 max-w-6xl mx-auto">
+      <div class="min-w-[300px] bg-white p-4 rounded-xl shadow hover:shadow-lg">
+        <img src="https://cdn.pixabay.com/photo/2022/10/17/18/10/house-7527835_1280.jpg" alt="Real Estate Landing Demo" class="rounded mb-4">
+        <h3 class="text-xl font-bold mb-1">Real Estate Landing Demo</h3>
+        <p class="text-sm text-gray-600 mb-1">Category: Real Estate</p>
+        <p class="text-sm mb-3">Responsive UI with WhatsApp integration and property grid design</p>
         <a href="#" class="text-blue-600 hover:underline">Preview Coming Soon</a>
       </div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
-        <h3 class="text-xl font-bold mb-2">Metiri Group</h3>
-        <p class="text-sm mb-4">Professional services site with clean corporate design and clarity in layout</p>
+      <div class="min-w-[300px] bg-white p-4 rounded-xl shadow hover:shadow-lg">
+        <img src="https://cdn.pixabay.com/photo/2023/04/06/17/03/3d-7904284_1280.jpg" alt="Metiri Group" class="rounded mb-4">
+        <h3 class="text-xl font-bold mb-1">Metiri Group</h3>
+        <p class="text-sm text-gray-600 mb-1">Category: Legal / Business</p>
+        <p class="text-sm mb-3">Professional services site with clean corporate design and clarity in layout</p>
         <a href="https://metirigroup.com/" target="_blank" class="text-blue-600 hover:underline">View Project</a>
       </div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
-        <h3 class="text-xl font-bold mb-2">SynergySpheres GitHub Site</h3>
-        <p class="text-sm mb-4">Showcase of tools, branding, and integrated automation packs</p>
+      <div class="min-w-[300px] bg-white p-4 rounded-xl shadow hover:shadow-lg">
+        <img src="https://cdn.pixabay.com/photo/2023/02/08/16/24/ai-7775373_1280.jpg" alt="SynergySpheres GitHub Site" class="rounded mb-4">
+        <h3 class="text-xl font-bold mb-1">SynergySpheres GitHub Site</h3>
+        <p class="text-sm text-gray-600 mb-1">Category: Automation / Branding</p>
+        <p class="text-sm mb-3">Showcase of tools, branding, and integrated automation packs</p>
         <a href="https://basytism.github.io/synergyspheres.github.io/" target="_blank" class="text-blue-600 hover:underline">View Project</a>
+      </div>
+      <div class="min-w-[300px] bg-white p-4 rounded-xl shadow hover:shadow-lg">
+        <img src="https://cdn.pixabay.com/photo/2021/06/07/20/27/house-6317799_1280.jpg" alt="Howard Hanna" class="rounded mb-4">
+        <h3 class="text-xl font-bold mb-1">Howard Hanna</h3>
+        <p class="text-sm text-gray-600 mb-1">Category: Real Estate</p>
+        <p class="text-sm mb-3">Real estate listings platform with robust search and agent directory</p>
+        <a href="https://www.howardhanna.com/" target="_blank" class="text-blue-600 hover:underline">View Project</a>
       </div>
     </div>
   </section>
